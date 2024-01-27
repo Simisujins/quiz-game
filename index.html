@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Interactive Quiz</h1>
+    <div class="question-container">
+        <div class="question" id="question1">
+            <h3>1.What is the Capital of france?</h2>
+                <label><input type="radio" name="q1" value="paris">Paris</label>
+                <label><input type="radio" name="q1" value="london">Londan </label>
+                <label><input type="radio" name="q1" value="berlin">Berlin</label>
+        </div>
+        <div class="question" id="question2">
+            <h3>2.Which planet is Known as the Red planet?</h2>
+                <label>
+                    <input type="radio" name="q2" value="mars">Mars</label>
+                <label>
+                    <input type="radio" name="q2" value="jupiter">Jupiter
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="venus">Venus
+                </label>
+        </div>
+        <div class="question" id="question3">
+            <h3>3.What is the largest Mammel of Earth?</h2>
+                <label>
+                    <input type="radio" name="q3" value="elephant">Elephant
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="bluewhale">Blue Whale
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="giraffe">Giraffe
+                </label>
+        </div>
+        <button class="btn" onclick="submit()">Submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
